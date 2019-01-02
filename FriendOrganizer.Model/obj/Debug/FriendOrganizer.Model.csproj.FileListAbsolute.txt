@@ -1,0 +1,12 @@
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.dll
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojAssemblyReference.cache
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csproj.CoreCompileInputs.cache
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.dll
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojAssemblyReference.cache
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csproj.CoreCompileInputs.cache
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
