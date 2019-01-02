@@ -48,3 +48,5 @@ C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganize
 C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.CopyComplete
 C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
 C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml

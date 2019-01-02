@@ -1,8 +1,10 @@
 ﻿using FriendOrganizer.DataAccess.EntityConfiguration;
 using FriendOrganizer.Model;
+using System;
 using System.Data.Entity;
 
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.IO;
 
 namespace FriendOrganizer.DataAccess
 {
@@ -10,7 +12,13 @@ namespace FriendOrganizer.DataAccess
     {
         public FriendOrganizerDbContext():base("FriendOrganizerDb")
         {
-
+            //reikalinga eilute, kad nemestu klaidos nurodo kur DB failiuka issaugoti cia po Update-Database komandos
+            //Db failas saugomas C://User/LocalData/Local..
+            if (!Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\FriendOrganizerData"))
+            {
+                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\FriendOrganizerData");
+            }
+            AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)+@"\FriendOrganizerData");
         }
         public DbSet<Friend> Friends { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -27,7 +35,6 @@ namespace FriendOrganizer.DataAccess
             //    .IsRequired()
             //    .HasMaxLength(50);
         }
-
         //kad igalinti Migration reikalingos komandos per NugetPackage comandline:
         //Enable-Migrations ir pasirenkama Default project>>>Tada atsiranda Migrations katalogas
         //po to i SEED surasome duomenis ir seka kitos komandos i NugetPackage comandline:
