@@ -1,6 +1,7 @@
 ﻿using FriendOrganizer.Model;
 using FriendOrganizer.UI.Data;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.ViewModel
 {
@@ -16,10 +17,10 @@ namespace FriendOrganizer.UI.ViewModel
             Friends = new ObservableCollection<Friend>();
             _friendDataService = friendDataService;
         }
-        
-        public void Load()
+
+        public async Task LoadAsync()
         {
-            var friends = _friendDataService.GetAll();
+            var friends = await _friendDataService.GetAllAsync();
             //clear collection for not have dublicates
             Friends.Clear();
             foreach (var friend in friends)
@@ -27,6 +28,17 @@ namespace FriendOrganizer.UI.ViewModel
                 Friends.Add(friend);
             }
         }
+
+        //public void Load()
+        //{
+        //    var friends = _friendDataService.GetAll();
+        //    //clear collection for not have dublicates
+        //    Friends.Clear();
+        //    foreach (var friend in friends)
+        //    {
+        //        Friends.Add(friend);
+        //    }
+        //}
         //ObservableCollection Informs when items added, removed or all list refreshed
         public ObservableCollection<Friend> Friends { get; set; }
 

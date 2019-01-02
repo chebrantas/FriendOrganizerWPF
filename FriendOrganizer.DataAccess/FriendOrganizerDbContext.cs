@@ -14,12 +14,13 @@ namespace FriendOrganizer.DataAccess
         {
             //reikalinga eilute, kad nemestu klaidos nurodo kur DB failiuka issaugoti cia po Update-Database komandos
             //Db failas saugomas C://User/LocalData/Local..
-            if (!Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\FriendOrganizerData"))
+            if (!Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + @"\FriendOrganizerData"))
             {
-                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\FriendOrganizerData");
+                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + @"\FriendOrganizerData");
             }
-            AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)+@"\FriendOrganizerData");
+            AppDomain.CurrentDomain.SetData("DataDirectory", Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + @"\FriendOrganizerData");
         }
+                
         public DbSet<Friend> Friends { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -27,7 +27,6 @@ namespace FriendOrganizer.UI
 
             var mainWindow = container.Resolve<MainWindow>();
             mainWindow.Show();
-
             //paleidimui MainWindowFormos be Autofac. Autofac automatizuoja kad paleidziant automatiskai supranta
             //kur kam koki methoda pasiimti kaip aprasyta pvz 1.MainViewMode 2.FriendDataService ir tt
             //var mainWindow = new MainWindow(
