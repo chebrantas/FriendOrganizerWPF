@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\
 FriendOrganizer.UI
 none
 false
 DEBUG;TRACE
-C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\App.xaml
-11151548125
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\App.xaml
+3484538715
 
-101552186186
-19-1797594738
-MainWindow.xaml;
+18-1458272942
+19-264961792
+MainWindow.xaml;View\FriendDetailView.xaml;View\NavigationView.xaml;
 
 False
 

@@ -77,3 +77,8 @@ C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOr
 C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.CopyComplete
 C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
 C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml

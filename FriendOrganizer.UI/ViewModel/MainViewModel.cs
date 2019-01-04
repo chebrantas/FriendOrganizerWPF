@@ -7,27 +7,33 @@ namespace FriendOrganizer.UI.ViewModel
 {
     public partial class MainViewModel:ViewModelBase
     {
-        private IFriendDataService _friendDataService;
-        private Friend _selectedFriend;
+        //private IFriendDataService _friendDataService;
+        //private Friend _selectedFriend;
 
         //public event PropertyChangedEventHandler PropertyChanged;
 
-        public MainViewModel(IFriendDataService friendDataService)
+        public MainViewModel(INavigationViewModel navigationViewModel, IFriendDetailViewModel friendDetailViewModel/*IFriendDataService friendDataService*/)
         {
-            Friends = new ObservableCollection<Friend>();
-            _friendDataService = friendDataService;
+            NavigationViewModel = navigationViewModel;
+            FriendDetailViewModel = friendDetailViewModel;
+            //Friends = new ObservableCollection<Friend>();
+            //_friendDataService = friendDataService;
         }
 
         public async Task LoadAsync()
         {
-            var friends = await _friendDataService.GetAllAsync();
-            //clear collection for not have dublicates
-            Friends.Clear();
-            foreach (var friend in friends)
-            {
-                Friends.Add(friend);
-            }
+            await NavigationViewModel.LoadAsync();
+            //var friends = await _friendDataService.GetAllAsync();
+            ////clear collection for not have dublicates
+            //Friends.Clear();
+            //foreach (var friend in friends)
+            //{
+            //    Friends.Add(friend);
+            //}
         }
+
+        public INavigationViewModel NavigationViewModel { get; }
+        public IFriendDetailViewModel FriendDetailViewModel { get; }
 
         //public void Load()
         //{
@@ -39,17 +45,20 @@ namespace FriendOrganizer.UI.ViewModel
         //        Friends.Add(friend);
         //    }
         //}
-        //ObservableCollection Informs when items added, removed or all list refreshed
-        public ObservableCollection<Friend> Friends { get; set; }
 
-        public Friend SelectedFriend
-        {
-            get { return _selectedFriend; }
-            set { _selectedFriend = value;
-                //OnPropertyChanged("SelectedFriend");
-                OnPropertyChanged();
-            }
-        }
+
+        //kadangi turim NavigationViewModel nebereikia pacioj klasej sito
+        //ObservableCollection Informs when items added, removed or all list refreshed
+        //public ObservableCollection<Friend> Friends { get; set; }
+
+        //public Friend SelectedFriend
+        //{
+        //    get { return _selectedFriend; }
+        //    set { _selectedFriend = value;
+        //        //OnPropertyChanged("SelectedFriend");
+        //        OnPropertyChanged();
+        //    }
+        //}
         //helpermethod for change if have more parameters to change 1 versija be tobulinimu
         //private void OnPropertyChanged(string propertyName)
         //{
