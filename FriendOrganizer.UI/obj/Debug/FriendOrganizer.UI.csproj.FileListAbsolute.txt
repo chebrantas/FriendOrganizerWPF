@@ -82,3 +82,11 @@ C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganize
 C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
 C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
 C:\Users\LKM\Documents\Visual Studio 2017\Project\FriendOrganizer\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\bin\Debug\Prism.dll
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\bin\Debug\Prism.pdb
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\bin\Debug\Prism.xml
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
+C:\Users\Vaida\Documents\Visual Studio 2017\Projects\FriendOrganizerWPF\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
